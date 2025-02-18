@@ -6,8 +6,9 @@ import os
 
 target_phone = "ER"
 num_samples = 25
+data_pth = "naharte/portuguese_english"
 
-ds = load_dataset("naharte/portuguese_english")
+ds = load_dataset(data_pth)
 
 idx = []
 audios = []
