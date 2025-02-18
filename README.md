@@ -1,7 +1,9 @@
 # Install
+```python
 python -m pip install datasets
 python -m pip install pronouncing
-pyhton -m pip install librosa
+python -m pip install librosa
+```
 
 # Use
 There are three variables you should be concerned with; `target_phone`, `num_samples`, and `data_pth`.  
